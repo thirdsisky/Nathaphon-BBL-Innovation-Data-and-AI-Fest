@@ -193,17 +193,18 @@ Summary of the sample queries:
 
 ## Possible Improvements
 
-- **Query rewriting / multi-hop retrieval** — the Data Retriever node calls
-  `search_knowledge_base` deterministically, which keeps retrieval reliable
-  and cheap: the snippets reaching the Report Generator are always the exact
-  text from the knowledge base, never an LLM paraphrase of it. Wrapping the
-  tool in a ReAct agent (LangGraph's `create_react_agent`) would let the
-  retriever rewrite a weak query and search again, which is worth the extra
-  LLM call once a knowledge base is large enough that the first search often
-  misses.
-- **Better chunking + hybrid search** — for a knowledge base much larger than
-  a handful of paragraphs, fixed-size/semantic chunking plus a hybrid of
-  keyword and embedding scores would likely outperform embeddings alone.
-- **Persistent vector store** — embeddings are currently recomputed once per
-  process and kept in memory; a real deployment with a larger, changing
-  knowledge base would use a vector DB (e.g. Chroma, FAISS) instead.
+- **Query rewriting / multi-hop retrieval** — the retriever runs one search
+  using the user's exact wording, so a question phrased differently from the
+  knowledge base can come back empty even when the answer is there. Wrapping
+  the tool in a ReAct agent (LangGraph's `create_react_agent`) would let it
+  rephrase a failed query and try again, and run several searches for a
+  multi-part question, at the cost of an extra generation call per retry.
+- **Better chunking + hybrid search** — each section is currently one chunk,
+  so a paragraph covering several topics dilutes each of them and a single
+  rule buried inside can be missed. Smaller chunks, plus keyword scoring
+  alongside the embedding scores, would hold up better once the knowledge
+  base grows past a handful of paragraphs.
+- **Persistent vector store** — embeddings are recomputed once per process
+  and kept in memory, so they are lost on exit. A larger or frequently
+  changing knowledge base would want a vector DB (e.g. Chroma, FAISS) to
+  persist them between runs and avoid re-embedding everything at startup.
