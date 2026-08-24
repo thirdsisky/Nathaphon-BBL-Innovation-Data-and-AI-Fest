@@ -1,0 +1,6 @@
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+python-dotenv>=1.0
+numpy>=1.26
+scikit-learn>=1.5

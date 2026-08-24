@@ -1,0 +1,195 @@
+C:\Users\User\Desktop\Nathaphon-BBL-Innovation-Data-and-AI-Fest\.venv\Scripts\python.exe C:\Users\User\Desktop\Nathaphon-BBL-Innovation-Data-and-AI-Fest\main.py
+
+Query: What is the policy on international travel?
+
+Retrieved:
+=== International Travel Policy ===
+All employees traveling internationally for business purposes must submit a travel request through the Employee Portal at least 14 business days before
+departure. Approval from the employee's direct manager and the Finance department is required before any flight or hotel booking is made. Employees are required
+to book flights in economy class for trips under 6 hours and are permitted to book premium economy for flights exceeding 6 hours. A valid passport with at least
+6 months of remaining validity is mandatory, and employees are responsible for confirming visa requirements for their destination country. The company provides
+a daily per diem of $75 USD to cover meals and incidental expenses while traveling internationally. All original receipts for expenses over $25 USD must be
+retained and submitted with the post-trip expense report within 10 business days of returning. Employees traveling to countries under a government-issued travel
+advisory level 3 or higher must obtain additional written approval from the Chief Operating Officer.
+
+Similarity: 0.693
+
+Answer:
+The policy requires advance planning, proper approvals, and adherence to flight, passport, visa, per diem, and expense rules, with extra COO approval for high
+travel advisory destinations.
+
+- Submission and approvals: All employees traveling internationally for business must submit a travel request through the Employee Portal at least 14 business
+  days before departure; approval from the employee’s direct manager and the Finance department is required before any flight or hotel booking is made.
+- Flight booking rules: Flights must be booked in economy class for trips under 6 hours, and premium economy is permitted for flights exceeding 6 hours.
+- Passport and visa: A valid passport with at least 6 months of remaining validity is mandatory; employees are responsible for confirming visa requirements for
+  their destination country.
+- Per diem: The company provides a daily per diem of $75 USD to cover meals and incidental expenses while traveling internationally.
+- Receipts and expense reporting: All original receipts for expenses over $25 USD must be retained and submitted with the post-trip expense report within 10
+  business days of returning.
+- Travel advisory requirement: Employees traveling to countries under a government-issued travel advisory level 3 or higher must obtain additional written
+  approval from the Chief Operating Officer.
+
+
+Query: How many days a week can employees work remotely?
+
+Retrieved:
+=== Remote Work Policy ===
+Employees may work remotely up to 3 days per week, subject to manager approval and role suitability. Remote work arrangements must be documented in the HR
+system and reviewed quarterly. Employees working remotely are expected to be available during core business hours (9:00 AM to 4:00 PM local time) and must
+maintain a secure, reliable internet connection. The company provides a one-time home office stipend of $300 USD for employees who are approved for regular
+remote work, which can be used toward a desk, chair, or monitor. Remote employees must complete the annual Information Security training and ensure all company
+devices are protected with company-approved VPN and antivirus software at all times.
+
+Similarity: 0.707
+
+Answer:
+Employees may work remotely up to 3 days per week, subject to manager approval and role suitability.
+
+- Remote work arrangements must be documented in the HR system and reviewed quarterly.
+- Remote employees are expected to be available during core business hours (9:00 AM to 4:00 PM local time).
+- A secure, reliable internet connection must be maintained.
+- The company provides a one-time home office stipend of $300 USD for employees approved for regular remote work, usable toward a desk, chair, or monitor.
+- Remote employees must complete the annual Information Security training and ensure all company devices are protected with a company-approved VPN and antivirus
+  software at all times.
+
+
+Query: Tell me about cats and how they sleep.
+
+Retrieved:
+=== About Cats (General Facts) ===
+Cats are small carnivorous mammals that have been domesticated for thousands of years, with evidence of human-cat companionship dating back over 9,000 years in
+the Near East. A group of cats is called a "clowder," and a male cat is called a "tom" while a female is called a "queen." Cats spend an average of 12 to 16
+hours a day sleeping, making them one of the most sleep-oriented mammals. Domestic cats have excellent night vision, being able to see at light levels roughly
+six times lower than what a human needs, thanks to a reflective layer behind their retina called the tapetum lucidum. Unlike dogs, cats are obligate carnivores,
+meaning their diet must consist primarily of meat to obtain essential nutrients like taurine, which they cannot synthesize on their own. A cat's purr is
+produced by rapid, repetitive contractions of the laryngeal muscles and can occur at a frequency of 25 to 150 Hz, a range that some researchers believe may
+promote bone healing and reduce pain.
+
+Similarity: 0.614
+
+Answer:
+Cats are small carnivorous mammals that have been domesticated for thousands of years. They sleep a lot, averaging 12 to 16 hours a day, making them one of the
+most sleep-oriented mammals.
+
+Supporting details:
+- They have excellent night vision and can see at light levels roughly six times lower than what a human needs, thanks to a reflective layer behind the retina
+  called the tapetum lucidum.
+- A group of cats is called a "clowder," a male cat is a "tom," and a female cat is a "queen."
+- The purr is produced by rapid, repetitive contractions of the laryngeal muscles and can occur at a frequency of 25 to 150 Hz; some researchers believe this
+  may promote bone healing and reduce pain.
+- Cats are obligate carnivores, meaning their diet must consist primarily of meat to obtain essential nutrients like taurine, which they cannot synthesize on
+  their own.
+
+
+Query: What receipts do I need for expenses on an international trip?
+
+Retrieved:
+=== International Travel Policy ===
+All employees traveling internationally for business purposes must submit a travel request through the Employee Portal at least 14 business days before
+departure. Approval from the employee's direct manager and the Finance department is required before any flight or hotel booking is made. Employees are required
+to book flights in economy class for trips under 6 hours and are permitted to book premium economy for flights exceeding 6 hours. A valid passport with at least
+6 months of remaining validity is mandatory, and employees are responsible for confirming visa requirements for their destination country. The company provides
+a daily per diem of $75 USD to cover meals and incidental expenses while traveling internationally. All original receipts for expenses over $25 USD must be
+retained and submitted with the post-trip expense report within 10 business days of returning. Employees traveling to countries under a government-issued travel
+advisory level 3 or higher must obtain additional written approval from the Chief Operating Officer.
+---
+=== Expense Reimbursement Policy ===
+All business-related expenses must be submitted through the Expense Management System within 30 calendar days of being incurred. Expenses submitted after this
+window may be denied unless an exception is approved by the employee's department head. Reimbursable expenses include client meals (up to $60 USD per person),
+local transportation, business software subscriptions pre-approved by the manager, and conference registration fees. Personal expenses, alcohol at non-client
+events, and traffic or parking fines are not reimbursable under any circumstance. All expense claims over $500 USD require secondary approval from a Finance
+Business Partner before reimbursement is processed. Reimbursements are typically processed within 7 to 10 business days after final approval.
+
+Similarity: 0.589, 0.464
+
+Answer:
+You need to retain and submit the original receipts for any expenses over $25 USD, and these receipts must be submitted with your post-trip expense report
+within 10 business days of returning.
+
+Supporting details:
+- All business-related expenses must be submitted through the Expense Management System within 30 calendar days of being incurred; exceptions may be approved by
+  the employee's department head.
+- All expense claims over $500 USD require secondary approval from a Finance Business Partner before reimbursement.
+- Reimbursable expenses include client meals (up to $60 USD per person), local transportation, pre-approved business software subscriptions, and conference
+  registration fees.
+- Personal expenses, alcohol at non-client events, and traffic or parking fines are not reimbursable under any circumstance.
+- Reimbursements are typically processed within 7 to 10 business days after final approval.
+
+
+Query: Can I get reimbursed for a home office desk and chair?
+
+Retrieved:
+=== Expense Reimbursement Policy ===
+All business-related expenses must be submitted through the Expense Management System within 30 calendar days of being incurred. Expenses submitted after this
+window may be denied unless an exception is approved by the employee's department head. Reimbursable expenses include client meals (up to $60 USD per person),
+local transportation, business software subscriptions pre-approved by the manager, and conference registration fees. Personal expenses, alcohol at non-client
+events, and traffic or parking fines are not reimbursable under any circumstance. All expense claims over $500 USD require secondary approval from a Finance
+Business Partner before reimbursement is processed. Reimbursements are typically processed within 7 to 10 business days after final approval.
+---
+=== Remote Work Policy ===
+Employees may work remotely up to 3 days per week, subject to manager approval and role suitability. Remote work arrangements must be documented in the HR
+system and reviewed quarterly. Employees working remotely are expected to be available during core business hours (9:00 AM to 4:00 PM local time) and must
+maintain a secure, reliable internet connection. The company provides a one-time home office stipend of $300 USD for employees who are approved for regular
+remote work, which can be used toward a desk, chair, or monitor. Remote employees must complete the annual Information Security training and ensure all company
+devices are protected with company-approved VPN and antivirus software at all times.
+
+Similarity: 0.483, 0.437
+
+Answer:
+Yes. The Remote Work Policy provides a one-time home office stipend of $300 USD for employees who are approved for regular remote work, and it can be used
+toward a desk, chair, or monitor.
+
+- Eligibility and scope: Regular remote work must be approved by your manager, with the arrangement documented in the HR system and reviewed quarterly. Remote
+  work is allowed up to 3 days per week, and you should be available during core business hours (9:00 AM to 4:00 PM local time).
+- What the stipend covers: The one-time $300 home office stipend can be used toward a desk, chair, or monitor.
+- Additional requirements: Remote employees must complete the annual Information Security training and ensure all company devices are protected with a company-
+  approved VPN and antivirus software at all times.
+
+
+Query: How is my data and my devices kept secure when I work from home?
+
+Retrieved:
+=== Remote Work Policy ===
+Employees may work remotely up to 3 days per week, subject to manager approval and role suitability. Remote work arrangements must be documented in the HR
+system and reviewed quarterly. Employees working remotely are expected to be available during core business hours (9:00 AM to 4:00 PM local time) and must
+maintain a secure, reliable internet connection. The company provides a one-time home office stipend of $300 USD for employees who are approved for regular
+remote work, which can be used toward a desk, chair, or monitor. Remote employees must complete the annual Information Security training and ensure all company
+devices are protected with company-approved VPN and antivirus software at all times.
+---
+=== Data Privacy and Confidentiality Policy ===
+Employees who handle customer or client data must complete Data Protection training within their first 30 days of employment and annually thereafter. Personally
+identifiable information (PII) must never be stored on local devices, personal cloud storage, or transmitted via unencrypted email. Any suspected data breach or
+unauthorized access must be reported to the Information Security team within 24 hours of discovery. Access to sensitive systems is granted on a least-privilege
+basis and is reviewed every 6 months by system owners. Employees are prohibited from sharing login credentials, and multi-factor authentication is mandatory for
+all systems containing customer data.
+
+Similarity: 0.516, 0.490
+
+Answer:
+Data and devices are protected through a combination of technical controls, policy rules, and mandatory training. Key protections include the use of a company-
+approved VPN and antivirus on all company devices at all times, strict handling rules for data, and formal training and reporting procedures.
+
+- VPN and antivirus: All company devices must be protected with company-approved VPN and antivirus software at all times to secure remote connections.
+- Internet and device security expectations: Remote work requires a secure, reliable internet connection and is conducted in accordance with the Remote Work
+  Policy, which is documented and reviewed quarterly.
+- Data handling and storage: Personally identifiable information (PII) must never be stored on local devices, personal cloud storage, or transmitted via
+  unencrypted email.
+- Access and authentication: Access to sensitive systems is granted on a least-privilege basis and reviewed every 6 months; multi-factor authentication is
+  mandatory for all systems containing customer data; sharing login credentials is prohibited.
+- Training and awareness: Employees who handle data must complete Data Protection training within the first 30 days and annually thereafter; the company
+  requires annual Information Security training for remote workers.
+- Incident reporting: Any suspected data breach or unauthorized access must be reported to the Information Security team within 24 hours of discovery.
+
+
+Query: What is a dog
+
+Retrieved:
+No directly matching snippets found in the knowledge base.
+
+Similarity: no match
+
+Answer:
+The knowledge base does not cover it.
+
+
+Process finished with exit code 0
