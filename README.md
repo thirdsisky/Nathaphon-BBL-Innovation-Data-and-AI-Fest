@@ -7,16 +7,15 @@ A two-agent system built with **LangChain / LangGraph**:
 - **Data Retriever** (`src/retrieval_tool.py`, `src/agents.py`) — calls a
   custom `search_knowledge_base` tool that reads
   [`data/knowledge_base.txt`](data/knowledge_base.txt), embeds each
-  paragraph with OpenAI `text-embedding-3-small` (the cheapest/smallest
-  OpenAI embedding model), and ranks them against the query with cosine
-  similarity — returning only the top matching raw snippets, each tagged
-  with its similarity score. Two filters keep the snippets clean: an
-  absolute `0.30` floor, so a question the knowledge base cannot answer
-  returns nothing rather than loosely-related text, and a relative cutoff
-  that drops any snippet scoring under `0.65x` the best match. A
-  single-topic question scores its runner-up around `0.5x` and gets one
-  snippet; a question genuinely spanning two sections scores its second
-  around `0.8x` and gets both. It never answers the question itself.
+  paragraph with OpenAI `text-embedding-3-small`, and ranks them against 
+  the query with cosine similarity. Returning only the top matching 
+  raw snippets, each tagged with its similarity score. Two filters keep 
+  the snippets clean: an absolute `0.30` floor, so a question the knowledge 
+  base cannot answer returns nothing rather than loosely-related text, 
+  and a relative cutoff that drops any snippet scoring under `0.65x`
+  the best match. A single-topic question scores its runner-up around `0.5x`
+  and gets one snippet; a question genuinely spanning two sections 
+  scores its second around `0.8x` and gets both. It never answers the question itself.
 - **Report Generator** (`src/agents.py`) — a plain LLM (no tools) that receives
   those snippets and synthesizes a single, non-redundant, well-formatted
   answer. Uses `gpt-5-nano`, OpenAI's cheapest/smallest chat model.
@@ -63,9 +62,9 @@ a small personal API credit going as far as possible.
 
 **Note on `gpt-5-nano`:** it's a reasoning model, so it does not accept the
 `temperature` parameter (OpenAI returns a 400 error if you pass one) — cost
-and behavior are instead tuned with `reasoning_effort`. This uses `"medium"`:
-`"low"` is cheaper but produced noticeably thinner answers, dropping relevant
-detail from the retrieved snippets.
+and behavior are instead tuned with `reasoning_effort`. This uses `"medium"`,
+eventhough `"low"` is cheaper but produced noticeably thinner answers, 
+dropping relevant detail from the retrieved snippets.
 
 ## Run
 
